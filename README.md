@@ -91,7 +91,7 @@ A função `dividir` delega o tratamento de erro ao próprio Python (`ZeroDivisi
 
 ---
 
-## 📘 Aula 1 — Testes Unitários com PyUnit
+## 📘 Etapa 1 — Testes Unitários com PyUnit
 
 ### Objetivo
 
@@ -122,7 +122,7 @@ def test_somar_com_varios_casos(self):
 
 ---
 
-## 🤖 Aula 2 — IA na Geração de Cenários de Teste
+## 🤖 Etapa 2 — IA na Geração de Cenários de Teste
 
 ### Objetivo
 
@@ -271,6 +271,6 @@ OK
 
 ---
 
-<p align="center">
-  Desenvolvido por <strong>Lucas</strong> · UFLA · Disciplina de Teste de Software
-</p>
+## 📄 Realização
+
+Feito por [Lucas](https://github.com/luskation) com base no material de [Prof. Johnatan](https://github.com/johnatan-si)
