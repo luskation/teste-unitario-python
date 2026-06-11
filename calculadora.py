@@ -1,7 +1,5 @@
-
 # calculadora.py
 
-  
 def somar(a, b):
     """Retorna a soma de dois números."""
     return a + b
@@ -16,7 +14,18 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     """Retorna a divisão de dois números.
-
     Se o segundo número for zero, o Python irá gerar um erro.
     """
     return a / b
+
+def potencia(a, b):
+    """Retorna a base 'a' elevada ao expoente 'b'."""
+    return a ** b
+
+def calcular_media(lista):
+    """Retorna a média dos números de uma lista.
+    Lança ValueError se a lista estiver vazia.
+    """
+    if not lista:
+        raise ValueError("A lista não pode estar vazia.")
+    return sum(lista) / len(lista)
